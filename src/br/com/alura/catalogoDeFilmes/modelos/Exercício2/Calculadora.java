@@ -1,4 +1,4 @@
-package Exercício2;
+package br.com.alura.catalogoDeFilmes.modelos.Exercício2;
 
 public class Calculadora {
 

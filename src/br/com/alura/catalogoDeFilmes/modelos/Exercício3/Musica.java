@@ -1,4 +1,4 @@
-package Exercício3;
+package br.com.alura.catalogoDeFilmes.modelos.Exercício3;
 
 public class Musica {
 
