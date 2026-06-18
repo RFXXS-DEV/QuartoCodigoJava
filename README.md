@@ -23,7 +23,3 @@ Praticar a integração de aplicações Java com serviços externos, o tratament
 - IntelliJ IDEA
 - APIs REST
 - Bibliotecas nativas do Java para HTTP e arquivos
-
-## Autor
-
-Rafael Schmitt Lamb
