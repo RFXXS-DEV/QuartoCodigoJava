@@ -1,4 +1,4 @@
-package br.com.alura.catalogoDeFilmes.ProjetoFinalCurso;
+package br.com.alura.catalogoDeFilmes.ProjetosFinais.ProjetoFinalCurso;
 
 public class Audio {
 

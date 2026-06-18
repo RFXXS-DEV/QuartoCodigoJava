@@ -1,8 +1,4 @@
-package br.com.alura.catalogoDeFilmes.ProjetoFinalCurso;
-
-import br.com.alura.catalogoDeFilmes.modelos.Conteudo.Filmes;
-
-import java.util.ArrayList;
+package br.com.alura.catalogoDeFilmes.ProjetosFinais.ProjetoFinalCurso;
 
 public class Principal {
     public static void main(String[] args) {

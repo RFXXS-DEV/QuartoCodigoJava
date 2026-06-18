@@ -1,4 +1,4 @@
-package br.com.alura.catalogoDeFilmes.ProjetoFinalCursoListas;
+package br.com.alura.catalogoDeFilmes.ProjetosFinais.ProjetoFinalCursoListas;
 
 import java.util.ArrayList;
 import java.util.List;
