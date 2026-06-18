@@ -5,6 +5,8 @@ import br.com.alura.catalogoDeFilmes.modelos.Conteudo.Series;
 import br.com.alura.catalogoDeFilmes.modelos.Conteudo.Titulo;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class PrincipalComListas {
     public static void main(String[] args) {
@@ -34,6 +36,23 @@ public class PrincipalComListas {
             }
 
         }
+
+
+        ArrayList<String> buscarPorArtista = new ArrayList<>();
+
+        buscarPorArtista.add("Adam Sandler");
+        buscarPorArtista.add("Paulo");
+        buscarPorArtista.add("Jacqueline");
+
+        System.out.println(buscarPorArtista);
+
+        Collections.sort(buscarPorArtista);
+        System.out.println("Depois da ordenação: ");
+        System.out.println(buscarPorArtista);
+        System.out.println("Lista de titulos ordenados");
+        Collections.sort(listaAssistidos);
+        System.out.println(listaAssistidos);
+
 
 
 
