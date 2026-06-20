@@ -1,5 +1,11 @@
 package br.com.alura.catalogoDeFilmes.Principal;
 
+import br.com.alura.catalogoDeFilmes.modelos.Conteudo.Titulo;
+import br.com.alura.catalogoDeFilmes.modelos.Conteudo.TituloOmdb;
+import com.google.gson.FieldNamingPolicy;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -27,7 +33,20 @@ public class PrincipalComBusca {
 
         HttpResponse<String> response = client
                 .send(request, HttpResponse.BodyHandlers.ofString());
-        System.out.println(response.body());
+
+
+        String json = response.body();
+        System.out.println(json);
+
+        Gson gson = new GsonBuilder()
+                .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
+                .create();
+
+        // Titulo meuTitulo = gson.fromJson(json, Titulo.class);
+        TituloOmdb meuTituloOmdb = gson.fromJson(json, TituloOmdb.class);
+
+        System.out.println(meuTituloOmdb);
+
 
 
 
