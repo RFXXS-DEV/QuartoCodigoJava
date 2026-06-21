@@ -1,4 +1,4 @@
-package br.com.alura.catalogoDeFilmes.exercícios.Exercicio12;
+package br.com.alura.catalogoDeFilmes.exercícios.Exercício12;
 
 import java.util.ArrayList;
 

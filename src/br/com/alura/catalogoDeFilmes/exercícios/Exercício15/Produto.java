@@ -1,4 +1,4 @@
-package br.com.alura.catalogoDeFilmes.exercícios.Exercicio15;
+package br.com.alura.catalogoDeFilmes.exercícios.Exercício15;
 
 public record Produto(
 
