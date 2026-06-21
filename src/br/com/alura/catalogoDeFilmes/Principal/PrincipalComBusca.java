@@ -42,11 +42,13 @@ public class PrincipalComBusca {
                 .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
                 .create();
 
-        // Titulo meuTitulo = gson.fromJson(json, Titulo.class);
+
         TituloOmdb meuTituloOmdb = gson.fromJson(json, TituloOmdb.class);
-
         System.out.println(meuTituloOmdb);
+        Titulo meuTitulo = new Titulo(meuTituloOmdb);
 
+        System.out.println("Titulo já convertido");
+        System.out.println(meuTitulo);
 
 
 
