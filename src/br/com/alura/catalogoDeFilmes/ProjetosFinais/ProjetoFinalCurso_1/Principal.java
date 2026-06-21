@@ -1,4 +1,4 @@
-package br.com.alura.catalogoDeFilmes.ProjetosFinais.ProjetoFinalCurso;
+package br.com.alura.catalogoDeFilmes.ProjetosFinais.ProjetoFinalCurso_1;
 
 public class Principal {
     public static void main(String[] args) {

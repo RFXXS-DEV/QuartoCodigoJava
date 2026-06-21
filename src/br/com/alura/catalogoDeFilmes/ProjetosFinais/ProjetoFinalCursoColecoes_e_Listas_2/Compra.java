@@ -1,4 +1,4 @@
-package br.com.alura.catalogoDeFilmes.ProjetosFinais.ProjetoFinalCursoListas;
+package br.com.alura.catalogoDeFilmes.ProjetosFinais.ProjetoFinalCursoColecoes_e_Listas_2;
 
 public class Compra implements Comparable<Compra> {
     private String descricao;

@@ -27,7 +27,7 @@ public class Titulo implements Comparable<Titulo> {
         }
 
         this.anoDeLancamento = Integer.valueOf(meuTituloOmdb.year());
-        this.duracaoEmMinutos = Integer.valueOf(meuTituloOmdb.runtime().substring(0,3));
+        this.duracaoEmMinutos = Integer.valueOf(meuTituloOmdb.runtime().substring(0,3).replace(" ", ""));
     }
 
     public String getNome() {
@@ -95,7 +95,7 @@ public class Titulo implements Comparable<Titulo> {
 
     @Override
     public String toString() {
-        return "Nome: " + nome +
+        return "\n\nNome: " + nome +
                 "\nAno de lançamento:" + anoDeLancamento +
                 "\nDuração: " + duracaoEmMinutos;
     }

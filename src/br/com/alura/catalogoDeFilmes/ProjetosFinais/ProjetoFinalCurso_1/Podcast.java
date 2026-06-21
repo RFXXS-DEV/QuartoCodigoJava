@@ -1,4 +1,4 @@
-package br.com.alura.catalogoDeFilmes.ProjetosFinais.ProjetoFinalCurso;
+package br.com.alura.catalogoDeFilmes.ProjetosFinais.ProjetoFinalCurso_1;
 
 public class Podcast extends Audio {
     private String apresentador;
